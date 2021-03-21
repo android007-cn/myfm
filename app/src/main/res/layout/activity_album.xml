@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AlbumActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tracks_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_container" />
+
+    <RelativeLayout
+        android:id="@+id/toolbar_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/returnBtn"
+            android:layout_width="144px"
+            android:layout_height="144px"
+            android:padding="15dp"
+            android:src="@drawable/ic_return_white" />
+
+        <ImageView
+            android:id="@+id/like_btn"
+            android:layout_width="160px"
+            android:layout_height="144px"
+            android:layout_toLeftOf="@id/download_btn"
+            android:padding="15dp"
+            android:src="@drawable/ic_like_white" />
+
+        <ImageView
+            android:id="@+id/download_btn"
+            android:layout_width="160px"
+            android:layout_height="144px"
+            android:layout_toLeftOf="@id/more_btn"
+            android:padding="15dp"
+            android:src="@drawable/ic_download_white" />
+
+        <ImageView
+            android:id="@+id/more_btn"
+            android:layout_width="160px"
+            android:layout_height="144px"
+            android:layout_alignParentEnd="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_more_white" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

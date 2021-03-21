@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="MainTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title" />
+
+    <style name="NotificationText" parent="android:TextAppearance.StatusBar.EventContent" />
+
+    <style name="XimalayaAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!--自定义列表弹出的activity的样式   -->
+
+    <style name="CustomDatePickerDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@style/dialog_fragment_animation</item>
+        <item name="android:windowEnterAnimation">@anim/dialog_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_bottom</item>
+    </style>
+
+    <style name="dialog_fragment_animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_bottom</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:layout">@layout/abc_search_view</item>
+        <item name="queryBackground">@drawable/abc_textfield_search_material</item>
+        <item name="submitBackground">@drawable/abc_textfield_search_material</item>
+        <item name="closeIcon">@drawable/abc_ic_clear_material</item>
+        <item name="searchIcon">@drawable/abc_ic_search_api_material</item>
+        <item name="goIcon">@drawable/abc_ic_go_search_api_material</item>
+        <item name="voiceIcon">@drawable/abc_ic_voice_search_api_material</item>
+        <item name="commitIcon">@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
+        <item name="suggestionRowLayout">@layout/abc_search_dropdown_item_icons_2line</item>
+
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+</resources>

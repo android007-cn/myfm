@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MyFM</string>
+    <string name="recommend">推荐</string>
+    <string name="fm">广播</string>
+
+    <string name="boutique">精品</string>
+    <string name="category">分类</string>
+    <string name="mine">我的</string>
+
+    <string name="book_city">书城</string>
+    <string name="feeling">情感</string>
+    <string name="music">音乐</string>
+    <string name="crosstalk">相声</string>
+    <string name="parent_child">亲子</string>
+    <string name="headline">头条</string>
+    <string name="entertainment">娱乐</string>
+    <string name="knowledge">知识</string>
+
+    <string name="jiangsu_province">江苏省</string>
+    <string name="country_radio">国家台</string>
+    <string name="province_city_radio">省市台</string>
+    <string name="recommend_radio">推荐电台</string>
+
+    <string name="rank_list">排行榜</string>
+    <string name="radio_rank_list">电台热播榜</string>
+
+    <string name="no_title">未知</string>
+    <string name="zero_time">00:00</string>
+    <string name="now_playing">正在播放：%1s</string>
+
+    <string name="hottest_rank">热听榜</string>
+    <string name="new_rank">新上榜</string>
+
+    <string name="play_all">播放全部</string>
+    <string name="trying_to_get">正在努力获取中~</string>
+    <string name="load_failed">加载失败!~</string>
+
+    <string name="recent_history">最近收听</string>
+    <string name="clear_all">清空</string>
+    <string name="confirm_to_clear_all_history">清空全部收听</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+    <string name="search">搜索</string>
+    <string name="popular_search">热门搜索:</string>
+    <string name="search_hint">搜索节目/专辑/主播/广播</string>
+    <string name="track">节目</string>
+    <string name="album">专辑</string>
+    <string name="host">主播</string>
+
+    <string name="my_download">我的下载</string>
+    <string name="had_download">已下载</string>
+    <string name="downloading">下载中</string>
+    <string name="clear_download">清空下载</string>
+
+    <string name="my_like">我的收藏</string>
+    <string name="setting">设置</string>
+
+    <string name="no_countdown">不开启定时器</string>
+    <string name="play_program_over">播放完当前节目</string>
+    <string name="countdown_15min">15分钟</string>
+    <string name="countdown_30min">30分钟</string>
+    <string name="countdown_60min">60分钟</string>
+    <string name="countdown_90min">90分钟</string>
+    <string name="diy">自定义</string>
+
+</resources>
